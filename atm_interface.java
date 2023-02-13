@@ -52,7 +52,9 @@ public class atm_interface {
 
         @Override
         public void viewBalance() {
-            System.out.println("Available Balance is :" +atm.getBalance());
+            System.out.println("Available Balance is :" +balance);
+
+
 
         }
 
@@ -76,7 +78,7 @@ public class atm_interface {
                 }
                 catch(Exception e){
                 }
-                viewBalance();
+            viewBalance();
             }
 
         @Override
